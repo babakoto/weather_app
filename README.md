@@ -1,3 +1,10 @@
+**Running application**
+
+**Environment variable :** weather_app/.env
+
+     API_KEY=<KEY>
+     HOST=https://api.openweathermap.org/data/2.5/forecast
+
 **FVM :**
 	Install fvm [ici](https://fvm.app/docs/getting_started/installation)
 
