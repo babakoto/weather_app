@@ -40,49 +40,52 @@ dependencies:
   # STATE MANAGER
   flutter_bloc: ^8.1.1
   bloc: ^8.1.0
-  rxdart: ^0.27.5
 
   #UTILS
   equatable: ^2.0.5
-  multiple_result: ^1.0.4
+  # Service Locator for Dart
   get_it: ^7.2.0
+
   intl: ^0.17.0
-  string_validator: ^0.3.0
+  # Small, easy to use and extensible logger which prints beautiful logs.
   logger: ^1.1.0
+
+  #Load configuration at runtime from a .env
   flutter_dotenv: ^5.0.2
 
 
 
   #UI
+  # This package helps in creation of data collection forms in Flutter by removing the boilerplate
+  # needed to build a form, validate fields, react to changes and collect final user input.
   flutter_form_builder: ^7.6.0
+
+  # Form Builder Validators set of validators for FlutterFormBuilder.
+  # Provides common validators and a way to make your own.
   form_builder_validators: ^8.3.0
+
+  # A flutter plugin for adapting screen and font size
   flutter_screenutil: ^5.5.4
+
   google_fonts: ^3.0.1
-  flutter_svg: ^1.1.5
   flutter_native_splash: ^2.2.9
   flutter_easyloading: ^3.0.5
 
   #NETWORKS
   dio: ^4.0.6
   http_mock_adapter: ^0.3.3
-  internet_connection_checker: ^0.0.1+4
   internet_connection_checker_plus: ^1.0.1
 
-  #DATA BASE
+  #store data in secure storage example Fake Token
   flutter_secure_storage: ^6.0.0
 
 
-
-
   #Localizations
-  easy_localization: ^3.0.1
   flutter_localizations:
     sdk: flutter
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  bloc_test: ^9.1.0
-  easy_localization_generator: ^0.0.3
   mocktail: ^0.3.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
